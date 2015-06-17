@@ -1,0 +1,38 @@
+body {
+	background-color: #f1f1f1 !important;
+	font-family: Helvetica;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.sign-up-alert {
+	clear: both;
+	margin: 330px 50px 321px 50px;
+	padding-top: 20px; padding-bottom: 20px;
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+.error {
+	background-color: #ef4338;
+	border-bottom: 12px solid #e13227;
+}
+
+.successful {
+	background-color: #6cf46c;
+	border-bottom: 12px solid #52ec52;
+}
+
+.back-btn {
+	text-align: center;
+	padding: 20px 50px;
+	font-size: 16px;
+	color: white;
+	border: 0px;
+	background-color: #6666ff;
+}

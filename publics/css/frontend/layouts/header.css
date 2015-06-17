@@ -1,0 +1,123 @@
+span {
+	margin-right: 10px;
+}
+
+.home-navbar {
+	background-color: #ef4338;
+	padding: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	float: left;
+	position: fixed;
+	z-index: 3;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.home-navbar #admin-navbar-brand {
+	background-color: #4a4a4a;
+}
+
+.home-navbar ul {
+	list-style: none;
+	background: #f46269;
+}
+
+.home-navbar ul li {
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.home-navbar ul li:hover {
+	background-color: #f26259;
+	transition: background-color 0.4s;
+}
+
+.home-navbar ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	padding: 20px 15px;
+}
+
+.home-navbar li ul {
+	display: none;
+}
+
+.home-navbar li:hover > ul {
+	display: block;
+	position: absolute;
+	z-index: 2;
+}
+
+.home-navbar li:hover > ul li {
+	min-width: 200px;
+	margin-left: -40px;
+}
+
+.home-navbar ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+.home-navbar .home-navbar-left {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.home-navbar .search-group {
+	width: 450px; 
+	margin: 12px;
+}
+
+.home-navbar .home-navbar-right {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 80px;
+}
+
+.home-navbar .home-navbar-right .current-user-avatar {
+	max-width: 35px;
+	margin-top: -9px;
+	margin-bottom: -8px;
+}
+
+
+.home-navbar li .categories-form {
+	clear: both;
+	min-width: 600px;
+	display: none;
+	background-color: #f26259;
+	color: white;
+}
+
+.home-navbar li:hover .categories-form {
+	display: block;
+	position: absolute;
+	padding: 10px 0px;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	z-index: 3;
+}
+
+.home-navbar li:hover .categories-form a {
+	padding: 15px 25px;
+	color: white;
+}
+
+.home-navbar li:hover .categories-form a:hover {
+	border-radius: 12px;
+	background-color: #f37b73;
+	transition: background-color 0.3s;
+}
+
+.jumbotron {
+	height: 250px;
+	margin-top: 60px; margin-bottom: 0px !important;
+	width: 100%;
+	float: left;
+	background: url(../../../images/header-background.jpg);
+	box-shadow: 1px 1px 1px 1px #6e6e6e;
+}

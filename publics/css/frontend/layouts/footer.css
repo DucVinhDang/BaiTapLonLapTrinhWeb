@@ -1,0 +1,43 @@
+span {
+	margin-right: 10px;
+}
+
+.support-form {
+	clear: both;
+	width: 100%;
+	float: left;
+	background: url(http://hubsoftech.com/wp-content/uploads/2015/04/Easter-Egg-HD-Image.jpg);
+	box-shadow: 1px 1px 1px 1px #d3d3d3;
+	padding-top: 50px; padding-bottom: 50px;
+}
+
+.support-form .sub-support-form {
+	padding: 18px 25px;
+	background-color: white;
+	line-height: 24px;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.support-form .sub-support-form img {
+	margin-top: 15px;
+	margin-bottom: 25px;
+
+}
+
+.support-form .sub-support-form p {
+	border-top: 3px solid #ef4338;
+	width: 100%;
+	padding-top: 10px;
+	font-size: 13px;
+	text-align: justify;
+}
+
+.home-footer {
+	clear: both;
+	width: 100%;
+	background-color: #ef4338;
+	padding-top: 20px; padding-bottom: 20px;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,83 @@
+body {
+	font-family: Helvetica;
+	font-size: 13px;
+	background-color: #f1f1f1 !important;
+}
+
+span {
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.home-body {
+	clear: both;
+	width: 100%;
+	padding-top: 10px; padding-bottom: 10px;
+}
+
+.home-body .home-body-left .breadcrumb-form {
+	margin-top: 11px; margin-bottom: 15px;
+	padding-top: 8px; padding-bottom: 8px; padding-left: 20px;
+	border-radius: 0px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+	font-size: 16px;
+}
+
+.home-body .home-body-left .title-product-form {
+	margin-top: 11px; margin-bottom: 15px;
+	padding-top: 10px; padding-bottom: 10px; padding-left: 20px;
+	border-bottom: 4px solid #ef4338;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+	font-size: 20px;
+}
+
+.home-body .home-body-left .sub-product {
+	margin: 10px;
+	padding: 5px;
+	box-shadow: 1px 1px 1px 1px #b8b8b8;
+	background-color: white;
+}
+
+.home-body .home-body-left .sub-product img {
+	width: 100%;
+	height: 200px;
+
+}
+
+.home-body .home-body-left .sub-product .title {
+	padding-top: 5px; padding-bottom: 5px;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	word-wrap: break-word;
+		text-overflow: ellipsis;
+}
+
+.home-body .home-body-left .sub-product button {
+	width: 100%; 
+	background-color: #ef4338;
+	border: 0px;
+}
+
+.home-body .home-body-left .sub-product .price-form {
+	padding-top: 10px; padding-bottom: 10px;
+	margin-left: -6px; margin-right: -6px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	background-color: #53bcfb;
+}
+
+.home-body .home-body-left .sub-product .rate-form {
+	padding-top: 5px; padding-bottom: 5px;
+	text-align: center;
+	font-size: 18px;
+}

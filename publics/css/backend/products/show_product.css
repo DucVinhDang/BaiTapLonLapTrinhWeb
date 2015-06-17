@@ -1,0 +1,84 @@
+body {
+	background-color: white !important;
+	font-family: Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+span {
+	margin-right: 10px;
+}
+
+.panel-main-body {
+	margin-top: 20px;
+}
+
+.panel-main-body .panel-heading {
+	padding-top: 15px; padding-bottom: 15px;
+}
+
+.panel-main-body .panel-heading .panel-title {
+	font-size: 22px;
+}
+
+.breadcrumb {
+	margin-top: 15px;
+	font-size: 16px;
+	background-color: white !important;
+	border-bottom: 3px solid #d8d8d8;
+	border-radius: 0px !important;
+}
+
+.breadcrumb li a {
+	color: #2a2a2a !important;
+}
+
+.product-function-form {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.product-function-form .form-left {
+	float: left;
+}
+
+.product-function-form .form-left button {
+	margin-left: 0px; margin-right: 5px;
+}
+
+.product-function-form .form-right {
+	float: right;
+}
+
+.product-function-form .form-right .input-group {
+	width: 350px;
+}
+
+.panel-main-body .table-form {
+	clear: both;
+	margin-top: 55px;
+}
+
+table {
+	clear: both;
+	background-color: white !important;
+	font-size: 13px;
+}
+
+table #table-header-tr {
+	border-bottom: 2px solid #d3d3d3;
+}
+
+table button {
+	font-size: 13px !important;
+}
+
+table form {
+	text-align: center;
+}

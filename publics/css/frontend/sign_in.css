@@ -1,0 +1,55 @@
+body {
+	background-color: #f1f1f1;
+	font-family: Helvetica;
+	background: url(../../images/sign-in-background.jpg);
+}
+
+.login-form {
+	padding: 20px 15px;
+	background-color: white;
+	width: 420px;
+	margin: auto; margin-top: 220px;
+	border-radius: 5px;
+}
+
+.login-form .title {
+	text-align: center;
+	margin: -20px -15px 30px -15px;
+	padding-top: 20px; padding-bottom: 20px;
+	background-color: #ef4338;
+	color: white;
+	font-size: 20px;
+	border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+
+.login-form .input-group {
+	margin-top: 5px;
+}
+
+.login-form .input-group input {
+	height: 40px;
+}
+
+
+.login-form .input-group-addon {
+	height: 30px !important;
+}
+
+.login-form .checkbox {			
+	font-size: 14px;
+	margin-top: 15px; margin-bottom: 10px;
+}
+
+.login-form .action-form {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.login-form .action-form #signin-btn, button {
+	background-color: #ef4338;
+	border-radius: 5px;
+	color: white;
+	border: 0px;
+	height: 40px;
+	min-width: 193px;
+}

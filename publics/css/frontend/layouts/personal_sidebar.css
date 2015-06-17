@@ -1,0 +1,112 @@
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .body-right {
+        display: none;
+    }
+    .body-left {
+    	width: 100% !important;
+    }
+}
+
+.body-left {
+	width: 96%;
+	float: left;
+}
+
+.body-right {
+	width: 4%;
+	float: right;
+}
+
+.sidebar-navbar {
+	top: 0px; right: 0px;
+	height: 100%; width: 57px;
+	background-color: #2f2f2f;
+	position: fixed;
+	padding: 4px;
+	z-index: 4;
+}
+
+.sidebar-navbar .user-form {
+	margin-top: 40px;
+}
+
+.sidebar-navbar ul {
+	list-style: none;
+	margin-left: -40px;
+	display: block;
+}
+
+.sidebar-navbar ul li {
+	padding: 15px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+
+}
+
+.sidebar-navbar ul li:hover {
+	background-color: #4a4a4a;
+}
+
+.sidebar-navbar span {
+	color: white;
+	font-size: 18px;
+}
+
+.sidebar-navbar .user-form .current_user-avatar {
+	max-width: 35px;
+	height: auto;
+	margin-left: -8px;
+}
+
+
+.sidebar-navbar .user-form #admin-li a {
+	color: white;
+	padding: 14px 17px;
+	background-color: #d17950;
+	font-size: 16px;
+	border-radius: 30px;
+	margin-left: -13px;
+	text-decoration: none;
+}
+
+.sidebar-navbar .user-form #admin-li:hover {
+	background-color: #424242;
+}
+
+.sidebar-navbar .user-form .cart-number-label {
+	font-size: 10px;
+	margin-left: 1px;
+}
+
+
+.sidebar-navbar .setting-form {
+	padding-top: 20px;
+	position: fixed;
+    bottom: 0;
+}
+
+.sidebar-navbar .setting-form #scroll-top-btn {
+	display: none;
+	margin-bottom: 15px;
+}
+
+.sidebar-navbar .setting-form #scroll-top-btn:hover {
+	background-color: #424242;
+}
+
+.sidebar-navbar .setting-form #scroll-top-btn a {
+	border-radius: 30px;
+	padding: 14px 2px;
+	margin-left: -12px;
+	background-color: #37ccbb;
+	color: white;
+}
+
+.sidebar-navbar .setting-form #scroll-top-btn a span {
+	margin-left: 10px;
+}

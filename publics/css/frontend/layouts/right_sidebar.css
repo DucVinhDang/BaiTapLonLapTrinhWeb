@@ -1,0 +1,68 @@
+span {
+	margin-right: 10px;
+}
+
+.panel {
+	margin-top: 10px;
+}
+
+.panel .panel-heading {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px !important; padding-bottom: 10px !important;
+}
+
+.categories-panel .categories-group {
+	margin-top: 0px; margin-bottom: 0px;
+	border: 0px;
+}
+
+.categories-panel .categories-group a {
+	border-radius: 0px !important;
+	padding-top: 15px; padding-bottom: 15px;
+}
+
+.manufacturers-panel .list-group {
+	margin-top: 0px; margin-bottom: 0px;
+	border: 0px; 
+}
+
+.manufacturers-panel .list-group li {
+	border-radius: 0px !important;
+}
+
+.manufacturers-panel .list-group .sub-manufacturer-left {
+	text-align: center !important;
+	padding: 5px 10px;
+	/*border-right: 1px solid #d3d3d3;*/
+}
+
+.manufacturers-panel .list-group .sub-manufacturer-left img {
+	width: 100%;
+	height: auto;
+}
+
+.manufacturers-panel .list-group .sub-manufacturer-right .title {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	/*border-bottom: 2px solid #ef4338;*/
+}
+
+.manufacturers-panel .list-group .sub-manufacturer-right p {
+	padding-top: 6px; padding-bottom: 6px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-height: 23px;        /* fallback */
+    text-align: justify;
+}
+
+.manufacturers-panel .list-group .sub-manufacturer-right button {
+	width: 100%;
+	float: right;
+	border-radius: 0px;
+	margin-bottom: 6px;
+}

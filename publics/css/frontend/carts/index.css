@@ -1,0 +1,78 @@
+body {
+	font-family: Helvetica;
+	font-size: 13px;
+	background-color: #f1f1f1 !important;
+}
+
+span {
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.home-body {
+	clear: both;
+	width: 100%;
+	padding-top: 10px; padding-bottom: 10px;
+}
+
+.home-body .title-cart-form {
+	margin: 15px;
+	padding-top: 10px; padding-bottom: 10px; padding-left: 20px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+	border-left: 4px solid #ef4338;
+	font-size: 20px;
+}
+
+.home-body .breadcrumb-form {
+	margin: 15px -29px;
+}
+
+.home-body .breadcrumb-form li {
+	display: inline-block;
+	padding: 20px 30px;
+	font-size: 18px;
+	background-color: #d9d9d9;
+	color: #5a5a5a;
+	margin-bottom: 5px;
+}
+
+.home-body .breadcrumb-form .active {
+	background-color: #ef4338;
+	color: white;
+	font-weight: bold;
+}
+
+.home-body .no-product-title {
+	text-align: center;
+	margin-top: 40px; margin-bottom: 193px;
+	font-size: 20px;
+}
+
+.home-body .button-form {
+	margin: 0px 15px;
+	margin-top: 30px; margin-bottom: 50px;
+	padding-top: 20px; padding-bottom: 20px;
+	border-top: 5px solid #d3d3d3;
+}
+
+.home-body .button-form .button-form-left {
+	float: left;
+}
+
+.home-body .button-form .button-form-right {
+	float: right;
+}
+
+.home-body .button-form .button-form-left button {
+	padding: 10px 15px;
+}
+
+.home-body .button-form .button-form-right button {
+	padding: 15px 20px;
+	font-size: 17px;
+	font-weight: bold;
+}

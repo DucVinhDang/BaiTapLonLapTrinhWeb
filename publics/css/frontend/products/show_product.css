@@ -1,0 +1,172 @@
+body {
+	font-family: Helvetica;
+	font-size: 13px;
+	background-color: #f1f1f1 !important;
+}
+
+span {
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none !important;
+	color: black;
+}
+
+.home-body {
+	clear: both;
+	width: 100%;
+	margin-top: 58px;
+	padding-top: 10px; padding-bottom: 10px;
+}
+
+.home-body .home-body-left .breadcrumb-form {
+	margin-top: 11px; margin-bottom: 15px;
+	padding-top: 8px; padding-bottom: 8px; padding-left: 20px;
+	border-radius: 0px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+	font-size: 16px;
+}
+
+.home-body .home-body-left .product-intro-form {
+	width: 100%;
+	padding: 0px 15px;
+	margin-bottom: 15px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+}
+
+.home-body .home-body-left .product-intro-form .left-form, .center-form, .right-form {
+	padding: 15px;
+}
+
+.home-body .home-body-left .product-intro-form .left-form img {
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+}
+
+.title-form {
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #f46269;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.home-body .home-body-left .product-intro-form .center-form .quick_review {
+	text-align: justify;
+	line-height: 23px;
+	font-size: 14px;
+}
+
+.home-body .home-body-left .product-intro-form .right-form table {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.home-body .home-body-left .product-intro-form .right-form .glyphicon-star {
+	color: #f6ee2d;
+	font-weight: bold;
+}
+
+.home-body .home-body-left .product-intro-form .right-form .add-to-cart-btn {
+	margin-top: 15px;
+	width: 100%;
+	padding-top: 10px; padding-bottom: 10px;
+}
+
+.home-body .product-detail-form {
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 15px;
+}
+
+.home-body .product-detail-form .manufacturer-form, .description-form, .comment-form {
+	background-color: white;
+	text-align: justify;
+	line-height: 24px;
+	font-size: 15px;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+}
+
+.home-body .product-detail-form .left-form .manufacturer-form {
+	padding: 15px 20px;
+	text-align: center;
+}
+
+.home-body .product-detail-form .left-form .manufacturer-form img {
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.home-body .product-detail-form .left-form .manufacturer-form p {
+	text-align: justify;
+}
+
+.home-body .product-detail-form .left-form .products-same-category-form {
+	background-color: white;
+	margin-top: 15px;
+	padding: 15px 10px;
+	box-shadow: 1px 1px 1px 1px #d8d8d8;
+}
+
+.home-body .product-detail-form .left-form .products-same-category-form img {
+	width: 100%;
+	margin: 0px;
+}
+
+.home-body .product-detail-form .left-form .products-same-category-form .product-form-right {
+	padding: 5px 15px 5px 0px;
+}
+
+.home-body .product-detail-form .left-form .products-same-category-form .product-form-right .name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.home-body .product-detail-form .left-form .products-same-category-form .product-form-right .price {
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.home-body .product-detail-form .right-form .description-form {
+	margin-top: -15px;
+	padding: 15px 20px;
+}
+
+.home-body .product-detail-form .right-form .comment-form {
+	margin-top: 20px;
+	padding: 15px 20px;
+}
+
+.home-body .product-detail-form .right-form .comment-form .user-comment-form {
+	padding: 10px;
+	margin-left: 0px; margin-right: 0px;
+	border-bottom: 3px dotted #d3d3d3;	
+}
+
+.home-body .product-detail-form .right-form .comment-form .user-comment-form .user-comment-form-left {
+	padding: 5px;
+	text-align: center;
+}
+
+.home-body .product-detail-form .right-form .comment-form .user-comment-form .user-comment-form-left img {
+	width: 100%;
+}
+
+.home-body .product-detail-form .right-form .comment-form .user-comment-form .user-comment-form-right .name {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.home-body .product-detail-form .right-form .comment-form .user-comment-form .user-comment-form-right .description {
+	text-align: justify;
+	font-style: italic;
+}
+
+.home-body .product-detail-form .right-form .comment-form .write-comment-form {
+	margin-top: 20px;
+}
