@@ -75,6 +75,10 @@
 												<span class="glyphicon glyphicon-star" aria-hidden="true" style="margin-right: 3px;"></span>
 									  		</td>
 									  	</tr>
+									  	<tr>
+									  		<td>Giá</td>
+									  		<td style="font-weight: bold; font-size: 19px;"><?php echo number_format($result["price"]) . " đ" ?></td>
+									  	</tr>
 									  	<tr class="warning">
 									  		<td>Tình trạng</td>
 									  		<td>

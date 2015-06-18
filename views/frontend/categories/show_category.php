@@ -46,7 +46,7 @@
 											}
 										?>
 										<div class="title"><?php echo $row["name"] ?></div>
-										<div class="price-form"><?php echo $row["price"] . " đ" ?></div>
+										<div class="price-form"><?php echo number_format($row["price"]) . " đ" ?></div>
 										<div class="rate-form">
 											<span class="glyphicon glyphicon-star" aria-hidden="true" style="margin-right: 3px;"></span>
 											<span class="glyphicon glyphicon-star" aria-hidden="true" style="margin-right: 3px;"></span>
